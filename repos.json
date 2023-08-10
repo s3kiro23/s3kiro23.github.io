@@ -1,19 +1,41 @@
 {
-    "appsdk_request_example": [
-        "goodbarber-appsdk"
+    "angular-init-apps": [
+        "typescript"
     ],
-    "angular-init-apps": [],
-    "app_flask-instantcafe": [],
-    "django-web-app": [],
-    "esia-dev-web": [],
-    "gbjstk": [],
-    "linstantcafe": [],
-    "mcanvas": [],
-    "monPortfolio": [],
-    "myNote": [],
-    "s3kiro23.github.io": [
-        "jekyll-testing",
+    "app_flask-instantcafe": [
         "python"
     ],
-    "symfony_init_apps": []
+    "django-web-app": [
+        "python"
+    ],
+    "esia-dev-web": [
+        "html",
+        "javascript",
+        "kotlin",
+        "php",
+        "python",
+        "swift"
+    ],
+    "gbjstk": [
+        "javascript"
+    ],
+    "linstantcafe": [
+        "html",
+        "javascript"
+    ],
+    "mcanvas": [],
+    "monPortfolio": [
+        "html",
+        "javascript"
+    ],
+    "myNote": [
+        "python"
+    ],
+    "s3kiro23.github.io": [
+        "html",
+        "python"
+    ],
+    "symfony_init_apps": [
+        "php"
+    ]
 }

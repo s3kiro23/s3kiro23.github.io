@@ -20,26 +20,18 @@ except Exception as e:
   logged_in = False
   print(f"Not logged in with error : {e}")
   
-def fetching_repos():
+def gh_repos():
   print('Fetching all repos information...')
-  # Use the following for development so you do not hammer the GitHub API.
-  #return {'name': name, 'html_url': 'http://google.com', 'homepage': 'http://example.com', 'description': 'Description!'}
 
   if not logged_in:
     print('Not logged in.  Please login to GitHub.')
     time.sleep(2.0) # Take a nap so GitHub doesn't aggressively throttle us.
 
-  try:
-    repos = ghclient.get_user().get_repos()
-  except:
-    print('Error fetching repos.')
-    return
-  
-  repos_list = {}  # Dict pour stocker les informations des dépéts
+  repos = ghclient.get_user().get_repos()
+  repos_formatted = {repo.name: repo.topics for repo in repos}
 
-  repos_list = {repo.name: repo.topics for repo in repos}
-  
   with open(repos_out, 'w') as f:
-      json.dump(repos_list, f, indent=4) 
-  
-fetching_repos()
+      json.dump(repos_formatted, f, indent=4) 
+
+
+gh_repos()
