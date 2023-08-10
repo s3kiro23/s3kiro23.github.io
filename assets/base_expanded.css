@@ -122,14 +122,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: italic;
 }
 
-/* sprites */
-.directory-icons-sprite, .logo:after, .logo h1, .search-field:before, .focus .search-field:before, .half .search-location-button, .half .search-location-button:hover, .half .search-location-button:focus, .full .search-location-button, .full .search-location-button.location-expanded:hover, .full .search-location-button.location-expanded:focus, .full .search-location-button.location-on, .search-swap-button, .navigation-picture, .navigation-picture:hover, .navigation-picture:focus, .navigation-picture:active, .icon-square-footer, .icon-mobile-merchant, .icon-left-arrow, .icon-right-arrow {
-  background: url(/assets/sprites/directory-icons-sprite.png) no-repeat;
-}
-.profile-icons-sprite, .icon-twitter, .icon-facebook, .reward-punch-card:before, .reward-cash:before, .reward-percent:before, .icon-image-previous, .icon-image-next, .profile-image-dot, .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-  background: url(/assets/sprites/profile-icons-sprite.png) no-repeat;
-}
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -223,7 +215,7 @@ p {
   padding-bottom: 1.14286em;
   text-align: center;
 }
-.icon-square-footer {
+.icon-sekiro-footer {
   background-position: 0 -146px;
   height: 23px;
   width: 23px;
@@ -2372,7 +2364,7 @@ p {
     height: 30px;
     width: 30px;
   }
-  .icon-square-footer {
+  .icon-sekiro-footer {
     background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -176px;
     background-size: 84px auto;
