@@ -1,0 +1,19 @@
+{
+    "appsdk_request_example": [
+        "goodbarber-appsdk"
+    ],
+    "angular-init-apps": [],
+    "app_flask-instantcafe": [],
+    "django-web-app": [],
+    "esia-dev-web": [],
+    "gbjstk": [],
+    "linstantcafe": [],
+    "mcanvas": [],
+    "monPortfolio": [],
+    "myNote": [],
+    "s3kiro23.github.io": [
+        "jekyll-testing",
+        "python"
+    ],
+    "symfony_init_apps": []
+}
