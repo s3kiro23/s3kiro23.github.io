@@ -850,7 +850,7 @@ p {
   font-weight: 300;
 }
 .module-list {
-  *zoom: 1;
+  zoom: 1;
   margin-top: 1.5em;
 }
 .module-list:before, .module-list:after {
@@ -873,7 +873,7 @@ p {
   margin-top: 1.71429em;
 }
 .module-list-with-image li {
-  *zoom: 1;
+  zoom: 1;
   margin-bottom: 0.35714em;
 }
 .module-list-with-image li:before, .module-list-with-image li:after {
