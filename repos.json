@@ -2,9 +2,6 @@
     "angular-init-apps": [
         "typescript"
     ],
-    "app_flask-instantcafe": [
-        "python"
-    ],
     "django-web-app": [
         "python"
     ],
